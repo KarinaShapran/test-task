@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Roar</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles/main.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <img src="img/logotype.png"
+         srcset="img/logotype@2x.png 2x, img/logotype@3x.png 3x"
+         class="logotype"
+         alt="Roar Logotype">
+    <ul class="menuItems">
+      <li class="item btnText"><a href="#">THE BOX</a></li>
+      <li class="item btnText"><a href="#">HOW IT WORKS</a></li>
+      <li class="item btnText"><a href="#">GET STARTED</a></li>
+      <li class="item btnText"><a href="#">SIGN IN</a></li>
+      <li class="user">
+        <img class="iconUser" src="img/ic-user.svg" alt="User Icon"/>
+      </li>
+    </ul>
+    <a id="burgerMenu"><span></span></a>
+  </div>
+  <hr class="line"/>
+</header> <!-- END OF header-->
+
+<section class="content">
+  <div class="container">
+    <h1>READY. SET. ROAR.</h1>
+    <p class="arrivalInfo">Welcome to the club. Your first box will arrive in 5-7 days.</p>
+
+    <h2>SELECT YOUR COLORS</h2>
+    <div class="colorBlocks row">
+      <div class="color">
+        <input type="radio" name="color" id="color1" value="classic"/>
+        <label for="color1">
+          <img src="img/pic1/pic1.png"
+               srcset="img/pic1/pic1@2x.png 2x, img/pic1/pic1@3x.png 3x"
+               class="imgColor"
+               alt="">
+          <span class="colorCaption">CLASSIC</span>
+          <span class="description">Neutral Colors</span>
+        </label>
+      </div>
+
+      <div class="color">
+        <input type="radio" name="color" id="color2" value="mix"/>
+        <label for="color2">
+          <img src="img/pic2/pic2.png"
+               srcset="img/pic2/pic2@2x.png 2x, img/pic2/pic2@3x.png 3x"
+               class="imgColor"
+               alt="">
+          <span class="colorCaption">MIX</span>
+          <span class="description">Neutrals + Pops of Color</span>
+        </label>
+      </div>
+
+      <div class="color">
+        <input type="radio" name="color" id="color3" value="bold"/>
+        <label for="color3">
+          <img src="img/pic3/pic3.png"
+               srcset="img/pic3/pic3@2x.png 2x, img/pic3/pic3@3x.png 3x"
+               class="imgColor"
+               alt="">
+          <span class="colorCaption">BOLD</span>
+          <span class="description">Vibrant Colors</span>
+        </label>
+
+      </div>
+    </div> <!-- END OF colorBlocks-->
+
+    <div class="genderBlocks row">
+      <div class="gender">
+        <input type="radio" name="gender" id="mens" value="mens"/>
+        <label for="mens">
+          <span>MENS</span>
+        </label>
+      </div>
+      <div class="gender">
+        <input type="radio" name="gender" id="womens" value="womens"/>
+        <label for="womens">
+          <span>WOMENS</span>
+        </label>
+      </div>
+    </div> <!-- END OF genderBlocks-->
+
+    <h2>SELECT YOUR SIZE</h2>
+    <div class="sizeBlocks row">
+      <div class="size">
+        <input type="radio" name="size" id="s" value="s"/>
+        <label for="s">
+          <span>S</span>
+        </label>
+      </div>
+      <div class="size">
+        <input type="radio" name="size" id="m" value="m"/>
+        <label for="m">
+          <span>M</span>
+        </label>
+      </div>
+      <div class="size">
+        <input type="radio" name="size" id="l" value="l"/>
+        <label for="l">
+          <span>L</span>
+        </label>
+      </div>
+      <div class="size">
+        <input type="radio" name="size" id="xl" value="xl"/>
+        <label for="xl">
+          <span>XL</span>
+        </label>
+      </div>
+    </div> <!-- END OF sizeBlocks-->
+
+    <button class="addToCard btn btnText">ADD TO CART</button>
+  </div>
+</section> <!-- END OF content-->
+
+<section class="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-9 col-md-6 leftBlock">
+        <div class="leftContainer">
+          <h2>ROAR<i>&reg;</i></h2>
+          <p class="textMotivation">We’re about baby steps and giant leaps. Personal bests and team victories.
+            Setting records and changing the world. Follow us on our adventures. Ready. Set. Roar.</p>
+          <form action="#">
+            <input type="email" name="email">
+            <input type="submit" value="SUBMIT" class="btnSubmit btn btnText">
+          </form>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-6 rightBlock">
+        <ul id="links">
+          <li><a href="#links">Subscribe</a></li>
+          <li><a href="#links">How It Works</a></li>
+          <li><a href="#links">Sign In</a></li>
+          <li><a href="#links">FAQS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12-md">
+        <div class="socialButtonsList">
+          <a href="https://www.facebook.com/">
+            <img src="img/social-buttons/facebook.svg" alt="Facebook social button">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src="img/social-buttons/instagram.png" alt="Instagram social button">
+          </a>
+          <a href="https://telegram.org/">
+            <img src="img/social-buttons/telegram.svg" alt="Telegram social button">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> <!-- END OF footer-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
